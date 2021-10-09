@@ -1,0 +1,6 @@
+
+
+
+El acceso secuencial (sequential access) es la lectura o escritura de datos en forma secuencial, o sea, uno tras otro.
+
+Esta manera de trabajar obligaba a incluir algún tipo de marca que nos indicara que habíamos llegado al final del archivo, de otro modo, obtendríamos un error al intentar leer un dato más allá del final del archivo.

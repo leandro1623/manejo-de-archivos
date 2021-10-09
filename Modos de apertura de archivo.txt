@@ -1,0 +1,17 @@
+Modos de apertura de archivo
+
+ios::app Operaciones de añadidura.
+
+ios::ate Coloca el apuntador del archivo al final del mismo.
+
+ios::in Operaciones de lectura. Esta es la opción por defecto para objetos de la clase ifstream.
+
+ios::out Operaciones de escritura. Esta es la opción por defecto para objetos de la clase ofstream.
+
+ios::nocreate Si el archivo no existe se suspende la operación.
+
+ios::noreplace Crea un archivo, si existe uno con el mismo nombre la operación se suspende.
+
+ios::trunc Crea un archivo, si existe uno con el mismo nombre lo borra.
+
+ios::binary Operaciones binarias.

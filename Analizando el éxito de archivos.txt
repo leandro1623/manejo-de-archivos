@@ -1,0 +1,11 @@
+Analizando el éxito de E/S de archivos
+
+En el programa archiv03.cpp se utilizó la función miembro fail( ) para determinar el éxito de la operación de apertura del archivo Pruebas.txt. La función miembro fail( ) produce el valor de 1 si ocurre un error en la operación de archivo. Similarmente es recomendable utilizar otras funciones para verificar no solo la apertura de archivo sino también las operaciones de lectura y escritura, las funciones miembro que nos permiten éstas pruebas son las siguientes:
+
+good, Produce un 1 si la operación previa fué exitosa.
+
+eof, Produce un 1 si se encuentra el final del archivo.
+
+fail, Produce un 1 si ocurre un error.
+
+bad, Produce un 1 si se realiza una operación inválida.

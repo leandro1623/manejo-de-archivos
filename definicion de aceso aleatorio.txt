@@ -1,0 +1,11 @@
+El acceso aleatorio o acceso directo se refiere a la forma de acceso a la memoria de manera aleatoria o directa, que tiene con notaciones algo distintas de acuerdo a las disciplinas de estudio.
+
+
+ Las operaciones de lectura y/o escritura pueden hacerse en cualquier punto del archivo. En general se suelen establecer ciertas normas para la creación, aunque no todas son obligatorias:
+
+1. Abrir el archivo en un modo que te permita leer y escribir. Esto no es imprescindible, es posible usar 
+archivos de acceso aleatorio sólo de lectura o de escritura.
+2. Abrirlo en modo binario, ya que algunos o todos los campos de la estructura pueden no ser caracteres.
+3. Usar funciones como fread y fwrite, que permiten leer y escribir registros de longitud constante desde y 
+hacia un fichero.
+4. Usar la función fseek para situar el puntero de lectura/escritura en el lugar apropiado de tu archivo.
